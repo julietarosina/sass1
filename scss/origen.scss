@@ -1,0 +1,166 @@
+// esto es un comentario de scss//
+/* esto es un comentario de css puro*/
+
+$rojo: red;
+$negro: black;
+
+@media (max-width:480px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{background-color: $negro }
+h1{background-color:$negro; width:100%}
+
+h1 img {height: 50px;display: inline;
+padding: 5px; margin: 5px}
+
+nav{color:$negro ; 
+    font-style: normal;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+ul{background-color:white;
+    list-style-type: none; content: 0px; border: 0px;
+    margin-top: 0px;margin-bottom:0px  ;padding: 15px;
+width: 100%; height:100%;text-align: center;
+
+li {display: inline;padding: 10px;
+        margin: 50px; border: 3px ;border-style: solid 
+        ;position: relative;
+        z-index:10px;
+        &:hover{background-color:$rojo;}
+    
+    }
+}
+  section img{width: 100%;}
+    
+.fotouno{
+       height: 1%;
+    width: 100%;}
+  
+h3 img {height: 400px;width:500px}
+
+.items {display:flex;
+        flex-direction:column; justify-content:space-evenly;color:$negro;
+    padding:50px;background-color:$negro; border:10px $negro;  
+ color:$negro; 
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif; 
+text-align: center; 
+
+ .inicio{
+     background-color: white;
+     width: 300px;
+     padding: 80px;
+     margin-bottom: 10px;
+     color: $negro;
+     font-weight: bold;
+     font-style: normal;
+     font-family: Arial, Helvetica, sans-serif;
+     border: solid $rojo;
+    transition: widht 2s, height 2s;
+    &:hover{
+        width: 310px;
+        height:210px;
+    }
+}
+}
+        
+.medidaUno{background-color: white;text-align: center;margin: 25px;
+    height: 100px;border:solid $rojo 8px;
+    color:$negro; 
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif; }
+
+footer{
+    background-color: rgb(59, 59, 59) ;
+    color:$negro; 
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    text-align: center;} 
+}
+
+
+@media (min-width:1024px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{background-color: $negro }
+h1{background-color:$negro; width:100%}
+
+h1 img {height: 50px;display: inline;
+padding: 5px; margin: 5px}
+
+nav{color:$negro ; 
+    font-style: normal;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+ul{background-color:white;
+    list-style-type: none; content: 0px; border: 0px;
+    margin-top: 0px;margin-bottom:0px  ;padding: 15px;
+width: 100%; height:100%;text-align: center;
+
+li {display: inline;padding: 10px;
+        margin: 50px; border: 3px ;border-style: solid 
+        ;position: relative;
+        z-index:10px;
+        &:hover{background-color:$rojo;}
+    
+    }
+}
+  section img{width: 100%;}
+    
+.fotouno{
+       height: 1%;
+    width: 100%;}
+  
+h3 img {height: 400px;width:500px}
+
+.items {display:flex;
+        flex-direction:row; justify-content:space-evenly;color:$negro;
+    padding:50px;background-color:$negro; border:10px $negro;  
+ color:$negro; 
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif; 
+text-align: center; 
+
+ .inicio{
+     background-color: white;
+     width: 300px;
+     padding: 80px;
+     margin-bottom: 10px;
+     color: $negro;
+     font-weight: bold;
+     font-style: normal;
+     font-family: Arial, Helvetica, sans-serif;
+     border: solid $rojo;
+    transition: widht 2s, height 2s;
+    &:hover{
+        width: 310px;
+        height:210px;
+    }
+}
+}
+        
+.medidaUno{background-color: white;text-align: center;margin: 25px;
+    height: 100px;border:solid $rojo 2px;
+    color:$negro; 
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif; }
+
+footer{
+    background-color: rgb(59, 59, 59) ;
+    color:$negro; 
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: right;
+    text-align: center;} 
+}
